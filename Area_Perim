@@ -1,0 +1,7 @@
+#Definimos la función para calcular área y perímetro de un rectángulo
+
+def calc_area_perim(largo, ancho):
+  area = largo * ancho
+  perimetro = 2 * (largo + ancho)
+  return { 'area': area, 'perimetro': perimetro}
+
